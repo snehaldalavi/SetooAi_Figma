@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body>
+
+    <div class="font-jakarta">
+
+        <div class="grid grid-cols-12">
+          <div class="col-span-3 h-full bg-[#f2f2f2] rounded-md  px-5 py-10 relative">
+
+            <img src="images/Setoo Login Logo (2).jpg">
+
+            <div class="flex flex-col gap-5 mt-10">
+
+              <button class="flex items-center gap-10 focus:bg-[#ef5449] focus:rounded-md focus:w-full text-[#222222] focus:text-[#ffffff] p-2">
+                <img src="images/Group 665.png">
+                <p class="text-base">Home</p>
+              </button>
+              <button class="flex items-center gap-10 focus:bg-[#ef5449] focus:rounded-md focus:w-full text-[#222222] focus:text-[#ffffff] p-2">
+                <img src="images/Group.png">
+                <p class="text-base">Account</p>
+              </button>
+              <button class="flex items-center gap-8 focus:bg-[#ef5449] focus:rounded-md focus:w-full text-[#222222] focus:text-[#ffffff] p-2">
+                <img src="images/Group 1000004563.png">
+                <p class="text-base">AI on call</p>
+              </button>
+              <button class="flex items-center gap-7 focus:bg-[#ef5449] focus:rounded-md focus:w-full text-[#222222] focus:text-[#ffffff] p-2">
+                <img src="images/character-design 1.png">
+                <p class="text-base">Image Avatar Streaming</p>
+              </button>
+              
+            </div>
+
+            <div>
+              <div class="flex items-center gap-6 absolute bottom-1">
+                <img src="images/image 9.png" class="h-auto w-auto rounded-full" alt="Loading">
+                <div>
+                  <p class="text-[#292a2c] font-semibold text-base">Tushar Waghmale</p>
+                  <p class="text-[#3b3b3b] text-sm font-medium leading-[0.625rem]">tushar@setoo.co</p>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+          <div class="col-span-9 bg-[#ffffff] rounded-tr-md rounded-br-md px-5 py-10">
+            
+            <div class="flex items-center justify-between">
+
+              <div>
+                <p class="text-[#1b1b1c] font-bold text-2xl">Ai on call</p>
+                <div class="flex items-center gap-4">
+                  <p class="text-sm text-[#222222]">Home</p>
+                  <i class="fa-solid fa-chevron-right text-[#000]"></i>
+                  <p class="text-sm text-[#ef5449] font-bold">Ai On Call</p>
+                </div>
+              </div>
+              <button class="bg-[#ef5449] text-base text-[#ffffff] font-bold rounded-md p-2">
+                  + Create New Project
+              </button>
+              
+            </div>
+
+            <div class="mt-6 flex items-center gap-11">
+                <div class="border border-[#aeb1b4] rounded-2xl w-[14.438rem] p-2 flex flex-col shadow-md">
+                  <p class="text-sm text-[#222222]">Total Call Minutes</p>
+                  <p class="text-[#1b1b1b] font-bold text-[2rem]">0</p>
+                  <p class="text-[#fa6a6a] text-base font-bold">-451.40%</p>
+                </div>
+                <div class="border border-[#aeb1b4] rounded-2xl w-[14.438rem] p-2 flex flex-col shadow-md">
+                  <p class="text-sm text-[#222222]">Total Call Minutes</p>
+                  <p class="text-[#1b1b1b] font-bold text-[2rem]">0</p>
+                  <p class="text-[#fa6a6a] text-base font-bold">-451.40%</p>
+                </div>
+                <div class="border border-[#aeb1b4] rounded-2xl w-[14.438rem] p-2 flex flex-col shadow-md">
+                  <p class="text-sm text-[#222222]">Total Call Minutes</p>
+                  <p class="text-[#1b1b1b] font-bold text-[2rem]">0</p>
+                  <p class="text-[#fa6a6a] text-base font-bold">-451.40%</p>
+                </div>
+                <div class="border border-[#aeb1b4] rounded-2xl w-[14.438rem] p-2 flex flex-col shadow-md">
+                  <p class="text-sm text-[#222222]">Total Call Minutes</p>
+                  <p class="text-[#1b1b1b] font-bold text-[2rem]">0</p>
+                  <p class="text-[#fa6a6a] text-base font-bold">-451.40%</p>
+                </div>
+            </div>
+
+            <div class="mt-6 p-5 flex items-center gap-5 border border-[#aeb1b4] shadow-md rounded-2xl">
+
+              <div>
+                <p class="text-[#3b3b3b] text-xs">Business Name</p>
+                <input placeholder="Enter Your Business" class="w-[18.962rem] placeholder:text-[#292a2c] placeholder:text-sm border border-[#aeb1b4] rounded-lg p-2"/>
+              </div>
+              <div>
+                <p class="text-[#3b3b3b] text-xs">Business Type</p>
+                <div class="flex items-center justify-between relative">
+                  <input placeholder="Business Type" class="w-[18.962rem] placeholder:text-[#292a2c] placeholder:text-sm border border-[#aeb1b4] rounded-lg p-2"/>
+
+                  <div class="w-6 flex items-center justify-center h-6 rounded-full bg-[#f1f3f6] absolute right-1"><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+              </div>
+              <div>
+                <p class="text-[#3b3b3b] text-xs">Use Case</p>
+                <div class="flex items-center justify-between relative">
+                  <input placeholder="Use Case" class="w-[18.962rem] placeholder:text-[#292a2c] placeholder:text-sm border border-[#aeb1b4] rounded-lg p-2"/>
+
+                  <div class="w-6 flex items-center justify-center h-6 rounded-full bg-[#f1f3f6] absolute right-1"><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="mt-6 flex items-center gap-6">
+              <button class="text-[#1b1b1c] font-medium text-sm border border-[#aeb1b4] shadow-sm rounded-md px-5 py-2 focus:bg-[#ef5449] focus:border-[#ef5449] focus:text-[#ffffff] focus:font-bold">
+                Prompt
+              </button>
+              <button class="text-[#1b1b1c] font-medium text-sm border border-[#aeb1b4] shadow-sm rounded-md px-5 py-2 focus:bg-[#ef5449] focus:border-[#ef5449] focus:text-[#ffffff] focus:font-bold">
+                Agent
+              </button>
+              <button class="text-[#1b1b1c] font-medium text-sm border border-[#aeb1b4] shadow-sm rounded-md px-5 py-2 focus:bg-[#ef5449] focus:border-[#ef5449] focus:text-[#ffffff] focus:font-bold">
+                Contact
+              </button>
+              <button class="text-[#1b1b1c] font-medium text-sm border border-[#aeb1b4] shadow-sm rounded-md px-5 py-2 focus:bg-[#ef5449] focus:border-[#ef5449] focus:text-[#ffffff] focus:font-bold">
+                Integrate
+              </button>
+            </div>
+
+            <div class="mt-6 border border-[#aeb1b4] rounded-2xl shadow-md w-full h-fit p-5">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque excepturi dicta consectetur esse voluptates. Explicabo, nobis architecto quibusdam omnis impedit laborum voluptate? Voluptatem quo ad asperiores rem sunt modi sequi!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque excepturi dicta consectetur esse voluptates. Explicabo, nobis architecto quibusdam omnis impedit laborum voluptate? Voluptatem quo ad asperiores rem sunt modi sequi!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque excepturi dicta consectetur esse voluptates. Explicabo, nobis architecto quibusdam omnis impedit laborum voluptate? Voluptatem quo ad asperiores rem sunt modi sequi!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque excepturi dicta consectetur esse voluptates. Explicabo, nobis architecto quibusdam omnis impedit laborum voluptate? Voluptatem quo ad asperiores rem sunt modi sequi!
+              </p>
+                <div class="flex items-end justify-end">
+                  <div class="flex items-center gap-3">
+                    <button class="border border-[#aeb1b4]  rounded-md text-sm font-bold text-[#000000] px-6 py-1">
+                      Back
+                  </button>
+                    <button class="border border-[#ef5449] bg-[#ef5449] rounded-md text-sm font-bold text-[#ffffff] px-6 py-1">
+                        Save
+                    </button>
+                  </div>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+
+  </body>
+</html>
