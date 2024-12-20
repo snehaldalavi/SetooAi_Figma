@@ -110,7 +110,7 @@
               
             </div>
 
-            <div class="mt-[23px] flex items-center gap-11">
+            <div class="mt-[23px] flex items-center lg:gap-[27px] xl:gap-[69px]">
                 <div class="border border-[#aeb1b4] rounded-[20px] w-[231px] pl-[30px] py-5 flex flex-col shadow-md">
                   <p class="text-sm text-[#222222] leading-normal">Total Call Minutes</p>
                   <p class="text-[#1b1b1b] font-bold text-[2rem] mt-[15px] leading-normal">0</p>
@@ -180,7 +180,7 @@
               <a href="agent.html" class="min-w-[105px] text-center text-[#1b1b1c] font-medium text-sm border border-[#aeb1b4] shadow-sm rounded-[10px] px-8 py-[11px] hover:bg-[#ef5449] hover:border-[#ef5449] hover:text-[#ffffff] focus:bg-[#ef5449] focus:border-[#ef5449] focus:text-[#ffffff] focus:font-bold leading-normal">
                 Agent
               </a>
-              <a href="contact.html" class="min-w-[105px] text-center text-[#1b1b1c] font-medium text-sm border border-[#aeb1b4] shadow-sm rounded-[10px] pl-[25px] pr-6 hover:bg-[#ef5449] hover:border-[#ef5449] hover:text-[#ffffff] py-[11px] focus:bg-[#ef5449] focus:border-[#ef5449] focus:text-[#ffffff] focus:font-bold leading-normal">
+              <a href="import_phone_Number.html" class="min-w-[105px] text-center text-[#1b1b1c] font-medium text-sm border border-[#aeb1b4] shadow-sm rounded-[10px] pl-[25px] pr-6 hover:bg-[#ef5449] hover:border-[#ef5449] hover:text-[#ffffff] py-[11px] focus:bg-[#ef5449] focus:border-[#ef5449] focus:text-[#ffffff] focus:font-bold leading-normal">
                 Contact
               </a>
               <a href="#" class="min-w-[105px] text-center text-[#1b1b1c] font-medium text-sm border border-[#aeb1b4] shadow-sm rounded-[10px] px-[18px] hover:bg-[#ef5449] hover:border-[#ef5449] hover:text-[#ffffff] py-[11px] focus:bg-[#ef5449] focus:border-[#ef5449] focus:text-[#ffffff] focus:font-bold leading-normal">
@@ -188,20 +188,20 @@
               </a>
             </div>
 
-            <div class="mt-[25px] mb-[283px] border border-[#aeb1b4] rounded-[20px] shadow-md w-full min-h-[258px] pl-[21px] pr-[13px] pt-[23px] relative">
+            <div class="mt-5 mb-[283px] border border-[#aeb1b4] rounded-[20px] shadow-md w-full min-h-[258px] pl-[21px] pr-[13px] pt-[23px] relative">
 
                 <div class="w-[293px]">
                     <p class="text-xs leading-5 text-[#3b3b3b] ml-[11px]">Select Your gender</p>
-                    <div class="flex items-center gap-5 mt-[5px]">
+                    <div class="flex items-center space-x-5 mt-[5px]">
                         <div class="w-[130px] h-10 border border-[#aeb1b4] rounded-lg flex items-center justify-between py-[9px] pr-[17px] pl-[11px]">
-                            <div class="w-[22px] h-[22px] rounded-[4px] border border-[#3b3b3b]"></div>
+                          <input type="radio" name="ch1" class="w-[22px] h-[22px] rounded-[4px] appearance-none checked:bg-blue-500 checked:outline-offset-[3px] checked:w-4 checked:h-4 checked:rounded-[2px] checked:outline-blue-500 checked:outline checked:outline-[1.6px] checked:border-blue-500 border border-[#3b3b3b]">
                             <div class="flex items-center gap-1">
                                 <img alt="Loading" src="images/Group 1000004431.svg">
                                 <span class="text-[#292a2c] text-sm leading-normal">Male</span>
                             </div>
                         </div>
                         <div class="w-[130px] h-10 border border-[#aeb1b4] rounded-lg flex items-center justify-between py-[9px] pr-[17px] pl-[11px]">
-                            <div class="w-[22px] h-[22px] rounded-[4px] border border-[#3b3b3b]"></div>
+                          <input type="radio" name="ch1" class="w-[22px] h-[22px] rounded-[4px] appearance-none checked:bg-blue-500 checked:outline-offset-[3px] checked:w-4 checked:h-4 checked:rounded-[2px] checked:outline-blue-500 checked:outline checked:outline-[1.6px] checked:border-blue-500 border border-[#3b3b3b]">
                             <div class="flex items-center gap-1">
                                 <img alt="Loading" src="images/Group 1000004432.svg">
                                 <span class="text-[#292a2c] text-sm leading-normal">Male</span>
@@ -210,27 +210,31 @@
                     </div>
                 </div>
 
-                <div class="flex items-center gap-[211px]">
-                    <p class="text-xs text-[#3b3b3b] leading-5 mt-5 ml-[11px] w-[282px]">Voice Type</p>
+                <!-- <div class="flex items-center gap-[211px]">
+                    
                     <p class="text-xs text-[#3b3b3b] leading-5 mt-5">Language</p>
-                </div>
-                <div class="flex items-center gap-[15px] relative">
+                </div> -->
+                <div class="grid grid-cols-2 space-x-[15px]">
 
-                    <input type="text" list="voice" class="appearance-none w-full border border-[#aeb1b4] rounded-lg p-[11px] text-sm font-semibold leading-normal">
-                    <datalist id="voice">
-                        <option value="Arebic"></option>
-                        <option value="Urdu"></option>
-                        <option value="Arebic"></option>
-                        <option value="Urdu"></option>
-                    </datalist>
-                    <div class="pointer-events-none w-[18px] h-[18px] flex items-center justify-center rounded-full bg-[#f1f3f6] absolute left-[448px]"><i class="fa-solid fa-chevron-down text-xs text-gray-400"></i></div>
-
-                    <input type="text" value="English" list="language" class="appearance-none w-full border border-[#aeb1b4] rounded-lg p-[11px] text-sm font-semibold leading-normal">
-                    <datalist id="language">
-                        <option value="English"></option>
-                        <option value="Marathi"></option>
-                    </datalist>
-                    <div class="pointer-events-none w-[18px] h-[18px] flex items-center justify-center rounded-full bg-[#f1f3f6] absolute right-2"><i class="fa-solid fa-chevron-down text-xs text-gray-400"></i></div>
+                   <div class="flex-col relative">
+                    <p class="text-xs text-[#3b3b3b] leading-5 mt-5 ml-[11px] w-[282px]">Voice Type</p>
+                    <select class="appearance-none mt-[5px] text-sm font-semibold w-full border border-[#aeb1b4] rounded-lg py-[11px] px-[10px]">
+                      <option>Arebic</option>
+                      <option>English</option>
+                      <option>Marathi</option>
+                    </select>
+                    <div class="pointer-events-none w-[18px] h-[18px] flex items-center justify-center rounded-full bg-[#f1f3f6] absolute bottom-3 right-[10px]"><i class="fa-solid fa-chevron-down text-xs text-gray-400"></i></div>
+                   </div> 
+                  
+                   <div class="flex-col relative">
+                    <p class="text-xs text-[#3b3b3b] leading-5 mt-5 ml-[11px] w-[282px]">Language</p>
+                    <select class="appearance-none mt-[5px] text-sm font-semibold w-full border border-[#aeb1b4] rounded-lg py-[11px] px-[10px]">
+                      <option>English</option>
+                      <option>Marathi</option>
+                      <option>Hindi</option>
+                    </select>
+                    <div class="pointer-events-none w-[18px] h-[18px] flex items-center justify-center rounded-full bg-[#f1f3f6] absolute bottom-3 right-[10px]"><i class="fa-solid fa-chevron-down text-xs text-gray-400"></i></div>
+                   </div>
 
                 </div>
               
