@@ -16,7 +16,7 @@ module.exports = {
           'custom': '327px auto',
           'custom1' : '90.997px auto',
           'custom2' : '336px auto',
-          'custom3' : '116px auto',
+          'custom3' : '90px auto',
         },
         
         fill : {
