@@ -11,13 +11,13 @@ module.exports = {
           'gray' : '0px 4px 4px rgba(0, 0, 0, 0.25)',
           'light-gray' : '(0px 4px 4px rgba(0, 0, 0, 0.25)',
         },
-        // gridTemplateColumns: {
+        gridTemplateColumns: {
           
-        //   'custom': '327px auto',
-        //   'custom1' : '90.997px auto',
-        //   'custom2' : '336px auto',
-        //   'custom3' : '90px auto',
-        // },
+          'custom': '327px auto',
+          'custom1' : '90.997px auto',
+          'custom2' : '336px auto',
+          'custom3' : '90px auto',
+        },
         
         fill : {
           'white' : '#ffffff',
